@@ -519,7 +519,7 @@ body {
   z-index: 2;
 }
 .fh5co-cta .container h3 {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   margin-top: 0;
   line-height: 1.5;
 }
@@ -531,7 +531,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cta {
-    padding: 3em 0;
+    padding: .01em 0;
   }
 }
 
@@ -651,11 +651,11 @@ body {
 
 #fh5co-features {
   background: #fafafa;
-  padding: 7em 0;
+  padding: 1em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-features {
-    padding: 4em 0;
+    padding: 1em 0;
   }
 }
 #fh5co-features .fh5co-service {
@@ -882,7 +882,7 @@ body {
 }
 
 #footer {
-  padding: 50px 0;
+  padding: 10px 0;
   color: #7f7f7f;
 }
 #footer .copyright {
