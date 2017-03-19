@@ -256,6 +256,32 @@ body {
   }
 }
 
+
+
+.anim {
+  position: relative;
+}
+.anim:after {
+  -webkit-animation: blink 800ms infinite;
+          animation: blink 800ms infinite;
+  background-color: #535353;
+  content: '';
+  height: 100%;
+  left: 100%;
+  position: absolute;
+  top: 0;
+  width: 4px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: sans-serif;
+  letter-spacing: 0.3rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+
 .section-heading {
   float: left;
   width: 100%;
@@ -318,7 +344,7 @@ body {
 #fh5co-press,
 #fh5co-product-screenshots,
 #fh5co-tour {
-  padding: 7em 0;
+  padding: 1em 0;
 }
 @media screen and (max-width: 480px) {
   #fh5co-our-services,
@@ -329,7 +355,7 @@ body {
   #fh5co-press,
   #fh5co-product-screenshots,
   #fh5co-tour {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 
@@ -428,6 +454,23 @@ body {
   font-size: 16px;
 }
 
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 12.5%;
+    left: 12.5%;
+    width: 75%;
+    height: 75%;
+}
+
 #fh5co-pricing .price-box {
   border: 2px solid #ECEEF0;
   text-align: center;
@@ -498,7 +541,7 @@ body {
 }
 
 .fh5co-cta {
-  padding: 7em 0;
+  padding: 1em 0;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -543,7 +586,7 @@ body {
 #fh5co-our-services .box {
   text-align: center;
   color: #7f7f7f;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
   position: relative;
   float: left;
   width: 100%;
@@ -551,7 +594,7 @@ body {
 @media screen and (max-width: 768px) {
   #fh5co-our-services .box {
     min-height: inherit;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
   }
 }
 #fh5co-our-services .box .icon {
@@ -651,15 +694,15 @@ body {
 
 #fh5co-features {
   background: #fafafa;
-  padding: 1em 0;
+  padding: .05em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-features {
-    padding: 1em 0;
+    padding: 0.05em 0;
   }
 }
 #fh5co-features .fh5co-service {
-  margin-bottom: 30px;
+  margin-bottom: 4px;
   float: left;
 }
 #fh5co-features .fh5co-service .fh5co-icon {
@@ -680,11 +723,11 @@ body {
 }
 
 .first-section {
-  padding-top: 15em !important;
+  padding-top: 6em !important;
 }
 @media screen and (max-width: 768px) {
   .first-section {
-    padding-top: 3em;
+    padding-top: 0.4em;
   }
 }
 
@@ -724,7 +767,7 @@ body {
 }
 #fh5co-press .fh5co-press-item .fh5co-press-text {
   float: left;
-  padding: 20px;
+  padding: 5px;
 }
 #fh5co-press .fh5co-press-item .fh5co-press-text .fh5co-press-title {
   margin: 0 0 20px 0;
@@ -1159,6 +1202,7 @@ body {
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .mobile-image .mobile {
     bottom: 0em;
+      min-width: 100px;
     text-align: center;
     float: none !important;
     margin: 0 auto;
@@ -1209,7 +1253,7 @@ body {
   line-height: 30px;
   line-height: 42px;
   font-weight: 100;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: white;
 }
 @media screen and (max-width: 768px) {
@@ -1313,7 +1357,7 @@ body {
 }
 
 .row-bottom-padded-lg {
-  padding-bottom: 7em;
+  padding-bottom: 1em;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {
