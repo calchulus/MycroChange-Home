@@ -24,8 +24,8 @@ $brand-darker: #444;
 $brand-gray: #ccc;
 $brand-lighter: #e9e9e9;
 $brand-body-color: #818892;
-$brand-selection-color: #f9f6f0;
-$brand-overlay-color: #3b3d40;
+$brand-selection-color: #0090ff;
+$brand-overlay-color: #818892;
 $brand-bg-color: $brand-white;
 
 $input-border-focus:  $brand-primary !default;
@@ -108,7 +108,7 @@ body {
 	font-size: 17px;
 	line-height: 1.6vw;
 	color: lighten($brand-darker, 20%);
-	color: #7f7f7f;
+	color: #2f3131;
 	background: $brand-bg-color;
 	height: 100%;
 	position: relative;
@@ -381,8 +381,8 @@ body {
 .section-heading {
 	float: left;
 	width: 100%;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
 	clear: both;
 	h2 {
 		font-size: 40px;
@@ -958,7 +958,7 @@ body {
 
 #footer {
 	padding: 50px 0;
-	color: #7f7f7f;
+	color: #2f3131;
 	// color: #d6d6d6;
 	.copyright {
 		margin-bottom: 0px;
