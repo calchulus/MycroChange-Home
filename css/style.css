@@ -39,7 +39,6 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
 }
@@ -1193,9 +1192,19 @@ h1 {
 }
 .owl-carousel-fullwidth .item .mobile-image {
   position: relative;
+     @media only screen and (max-width: 450px) {
+    #fadeshow1 {
+        display: none;
+    }
+    }
   z-index: 99999999;
 }
 .owl-carousel-fullwidth .item .mobile-image .mobile {
+    @media only screen and (max-width: 450px) {
+    #fadeshow1 {
+        display: none;
+    }
+    }
   float: right;
   text-align: right;
   position: relative;
